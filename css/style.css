@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part1{
+    width: 322px;
+    background-color: #7fffd4;
+    padding: 20px 0 40px 0;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.part1 .show{
+    border: none;
+    margin-left: -31px;
+    background-color: transparent;
+}
+.part1 .log-in{
+    text-align: right;
+    padding-right: 30px;
+}
+.part1 .login{
+    text-decoration: none;
+    background-color: rgb(98, 156, 80);
+    padding: 5px 11px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.part1 .login:hover{
+    color: rgba(255, 0, 0, 0.658);
+}
+
+
+
+
+
+
+.chart2{
+    width: 245px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: white;
+}
+.chart2 a{
+    color: black;
+
+}
+.chart2 .p{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.chart2 a:hover{
+    color: red;
+}
+.chart{
+    width: 67px;
+    display: flex;
+    border: 1px solid black;
+    margin: 20px 0;
+    margin: auto;
+}
+.chart .box{
+    width: 25px;
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: px;
+}
+.chart button{
+    border: none;
+}
+.chart2 .buy{
+    background-color: #b15151;
+    padding: 7px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.chart2 .buy:hover{
+    background-color: wheat;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+
+
+.range1{
+    width: 350px;
+    margin: auto;
+    background-color: rgb(46, 179, 145);
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.range1 .range{
+    color: rgb(228, 95, 43);
+    width: 200px;
+}
+
+
+.last-button{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0;
+    margin-top: 30px;
+    
+}
+.last-button .btn{
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #1f680c;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.last-button .btn:hover{
+    color: rgba(255, 0, 0, 0.884);
+    background-color: #1e680cd5;
+}
